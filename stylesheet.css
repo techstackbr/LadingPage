@@ -7,7 +7,7 @@ header {
 
 .container {
     max-width: 800px;
-    margin: 50px auto;
+    margin: 20px auto;
     background: white;
     padding: 20px;
     border-radius: 10px;
@@ -40,10 +40,12 @@ section {
 footer {
     background: #007bff;
     color: white;
-    padding: 1.4vw;
     text-align: center;
     margin-top: 20px;
     width: 100%;
+    position: fixed;
+    bottom: 0;
+    padding: 5px;
 }
 
 .whatsapp-button {
