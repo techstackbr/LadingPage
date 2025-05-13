@@ -42,16 +42,16 @@ footer {
     text-align: center;
     margin-top: 20px;
     width: 100%;
-    position: fixed;
     bottom: 0;
     padding: 5px;
+    z-index: 1;
 }
 
 .whatsapp-button {
     position: fixed;
     width: 60px;
     height: 60px;
-    bottom: 40px;
+    bottom: 100px;
     right: 40px;
     background-color: #25d366;
     color: #FFF;
@@ -59,7 +59,7 @@ footer {
     text-align: center;
     font-size: 30px;
     box-shadow: 2px 2px 3px #999;
-    z-index: 100;
+    z-index: 1000;
 }
 
 .my-float {

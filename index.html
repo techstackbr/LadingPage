@@ -57,7 +57,9 @@
 
 <body>
     <header>
-        <h1>TechStack - Sua Fábrica de Software</h1>
+        <h2><b>Tech Stack Sistemas</b>
+            <br>Sua Fábrica de Software
+        </h2>
         <p>Desenvolvemos soluções sob medida para sua empresa ou negócio.</p>
     </header>
 
@@ -167,13 +169,19 @@
             </div>
         </center>
     </section>
-    <a href="https://web.whatsapp.com/send?phone=5561994470831" class="whatsapp-button" target="_blank">
+    <br><br><br>
+    <a href="https://wa.me/5561994470831?text=Ol%C3%A1%2C%20como%20posso%20ajuda-lo%3F" class="whatsapp-button"
+        target="_blank">
         <i class="fa fa-whatsapp my-float"></i>
     </a>
     <footer>
-        &copy; 2025 TechStack - Todos os direitos reservados.<br>
-        <span id="versao"></span>
+        &copy; <span id="ano"></span> Tech Stack Sistemas LTDA - Todos os direitos reservados.<br>
+        <span id="cnpj"><b>CNPJ:</b> 60.569.531/0001-21</span><br>
+        <span id="versao"></span><br>
     </footer>
+    <script>
+        document.getElementById("ano").textContent = new Date().getFullYear();
+    </script>
 </body>
 
 </html>
